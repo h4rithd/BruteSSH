@@ -61,7 +61,7 @@ if __name__ == "__main__":
     required.add_argument("-i", "--iplist", metavar='', required=True, help="File that contain list of IP Address.") 
     required.add_argument("-p", "--password", metavar='', required=True, help="Valid Password.") 
 
-    optional.add_argument("-u", "--username", metavar='', default="root", help='Valid Username.')
+    optional.add_argument("-u", "--username", metavar='', default="root", help='Valid Username. [Default:root]')
 
     args = parser.parse_args()
 

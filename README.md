@@ -21,3 +21,4 @@ by h4rith.com
   -u , --username   Valid Username (Default:root).
 
 ---------------- Script from h4rithd.com ----------------
+```
